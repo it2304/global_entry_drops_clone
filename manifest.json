@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Global Entry Drops Clone",
+    "description": "Learning how to find entries for global interviews as a chrome extension",
+    "version": "1.0.0",
+    "action":{
+        "default_popup": "popup/popup.html"
+    },
+    "icons": {
+        "16": "images/globalEntryDropClone_16.png",
+        "32": "images/globalEntryDropClone_32.png",
+        "64": "images/globalEntryDropClone_64.png",
+        "128": "images/globalEntryDropClone_128.png"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": ["storage", "alarms", "notifications"]
+}
